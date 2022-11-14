@@ -24,7 +24,7 @@ public class MainClass03 {
 		
 		int num2 = 110;
 		char ch4 = (char)num2; // int 형을 char 형으로 강제 형 변환
-		System.out.println(ch4);
+		System.out.println(ch4); 
 		
 	}
 
