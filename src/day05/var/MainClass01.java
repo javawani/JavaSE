@@ -29,6 +29,8 @@ import day05.mypac.Card;
  *  
  * 3. 정적(static) / 동적() 변수
  * 
+ * 		static은 값을 공유한다 
+ * 
  * 
  * 
  * 
