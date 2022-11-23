@@ -23,12 +23,27 @@ package day03.loop;
 
 public class MainClass04 {
 	public static void main(String[] args) {
+		
+		int num = 0;
+		
+		for(int i=0; i < 7; i++) {
+			for(int j =0; j<7; j++) {
+			num++;
+			System.out.println(num +" : *");
+		}
+		
+		
+		
+		
+		
 		// 1번 숙제 분석!
-		for(int i = 0; i < 7; i++) {
-			for(int j=0; j <= i; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
+		
+		
+//		for(int i = 0; i < 7; i++) {
+//			for(int j=0; j <= i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
 		}
 	}
 	
