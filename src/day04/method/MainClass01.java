@@ -35,7 +35,7 @@ public class MainClass01 {
 	    
 	    System.out.println("전역변수 name : " + strName);
 	    
-	    String eMon = getEvolution("꼬부기");
+	    String eMon = getEvolution("꼬부기"); //진화하는 메소드
 	    
 	    System.out.println(eMon);
 	}
@@ -67,6 +67,13 @@ public class MainClass01 {
 		return name; // MainClass01.name
 	}
 	
+	
+	/**
+	 * 포켓몬 진화 메소드
+	 * 
+	 * @param mon
+	 * @return
+	 */
 	public static String getEvolution(String mon) {
 		String eMon = "";
 		if(mon.equals("꼬부기")) {
